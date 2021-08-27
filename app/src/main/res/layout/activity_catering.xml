@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".catering">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Catering"
+        android:id="@+id/h1"
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        android:textSize="50sp"
+        android:textColor="@color/red"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Create work details"
+        android:inputType="text"
+        android:id="@+id/h2"
+        android:layout_below="@id/h1"
+        android:textSize="35sp"
+        android:autofillHints="30" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="create name"
+        android:inputType="textPersonName"
+        android:id="@+id/h3"
+        android:layout_below="@id/h2"
+        android:textSize="35sp"
+        android:autofillHints="30" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address"
+        android:inputType="textPostalAddress"
+        android:id="@+id/h4"
+        android:layout_below="@id/h3"
+        android:textSize="35sp"
+        android:autofillHints="30" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="city"
+        android:inputType="text"
+        android:id="@+id/h5"
+        android:layout_below="@id/h4"
+        android:textSize="35sp"
+        android:autofillHints="30" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="experience"
+        android:inputType="text"
+        android:id="@+id/h6"
+        android:layout_below="@id/h5"
+        android:textSize="35sp"
+        android:autofillHints="30" />
+    <Button
+        android:id="@+id/h7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/h6"
+        android:layout_centerInParent="true"
+        android:text="save"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+</RelativeLayout>

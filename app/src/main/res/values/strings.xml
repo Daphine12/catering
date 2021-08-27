@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Online Catering and Ordering Services</string>
+    <string name="email">email</string>
+    <string name="name">name</string>
+    <string name="login">user login</string>
+    <string name="cat">catering login</string>
+    <string name="ts">catering register</string>
+</resources>
