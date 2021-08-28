@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".My_order">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Order"
+        android:id="@+id/p1"
+        android:textSize="50sp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:textColor="@color/green"
+        android:paddingTop="50dp"
+        android:layout_margin="20dp" />
+
+    <EditText
+        android:id="@+id/p2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p1"
+        android:autofillHints="30"
+        android:hint="Customer Names"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/p3"
+        android:layout_below="@id/p2"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:autofillHints="30" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mobile number"
+        android:inputType="number"
+        android:id="@+id/p5"
+        android:layout_below="@id/p3"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:autofillHints="30" />
+
+    <Button
+        android:id="@+id/p7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p5"
+        android:layout_centerInParent="true"
+        android:text="place order"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
