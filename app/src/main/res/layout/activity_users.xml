@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/teal_200"
     tools:context=".Users">
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,7 +37,7 @@
         android:id="@+id/h4"
         android:padding="10dp"
         android:layout_marginTop="60dp"
-        android:textSize="50sp"
+        android:textSize="20sp"
         android:textColor="@color/blue"/>
     <TextView
         android:layout_width="match_parent"
@@ -45,8 +46,8 @@
         android:id="@+id/h5"
         android:layout_below="@id/h4"
         android:padding="10dp"
-        android:layout_marginTop="60dp"
-        android:textSize="50sp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
         android:textColor="@color/blue"/>
     <TextView
         android:layout_width="match_parent"
@@ -55,8 +56,8 @@
         android:id="@+id/h6"
         android:layout_below="@id/h5"
         android:padding="10dp"
-        android:layout_marginTop="60dp"
-        android:textSize="50sp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
         android:textColor="@color/blue"/>
 
 </RelativeLayout>

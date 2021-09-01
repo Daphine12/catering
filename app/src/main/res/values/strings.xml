@@ -4,5 +4,11 @@
     <string name="name">name</string>
     <string name="login">user login</string>
     <string name="cat">catering login</string>
+    <string name="hm">home</string>
     <string name="ts">catering register</string>
+    <string name="det">catering</string>
+    <string name="ds">details</string>
+    <string name="order">my order</string>
+    <string name="pay">mode of payment</string>
+    <string name="pa">users</string>
 </resources>

@@ -4,17 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/green"
+    android:background="@drawable/C3"
+    android:maxHeight="40sp"
+    android:maxWidth="35dp"
     tools:context=".home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="home"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:textColor="@color/black"/>
+    </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Catering details"
         android:id="@+id/h1"
         android:padding="10dp"
-        android:layout_marginTop="60dp"
-        android:textSize="50sp"
-        android:textColor="@color/blue"/>
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -22,9 +48,9 @@
     android:id="@+id/h2"
     android:layout_below="@id/h1"
     android:padding="10dp"
-    android:layout_marginTop="60dp"
-    android:textSize="50sp"
-    android:textColor="@color/blue"/>
+    android:layout_marginTop="30dp"
+    android:textSize="20sp"
+    android:textColor="@color/black"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,9 +58,9 @@
         android:id="@+id/h3"
         android:layout_below="@id/h2"
         android:padding="10dp"
-        android:layout_marginTop="60dp"
-        android:textSize="50sp"
-        android:textColor="@color/blue"/>
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,9 +68,9 @@
         android:id="@+id/h4"
         android:layout_below="@id/h3"
         android:padding="10dp"
-        android:layout_marginTop="60dp"
-        android:textSize="50sp"
-        android:textColor="@color/blue"/>
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,9 +78,9 @@
         android:id="@+id/h5"
         android:layout_below="@id/h4"
         android:padding="10dp"
-        android:layout_marginTop="60dp"
-        android:textSize="50sp"
-        android:textColor="@color/blue"/>
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
 
 
 </RelativeLayout>

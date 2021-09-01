@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_catering.xml" value="0.1" />
-        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_details.xml" value="0.1" />
-        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_main.xml" value="0.1272644927536232" />
-        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_catering.xml" value="0.22" />
+        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_details.xml" value="0.17006802721088435" />
+        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_my_order.xml" value="0.25" />
+        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_payment.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/layout/activity_users.xml" value="0.22" />
+        <entry key="..\:/Users/jos/AndroidStudioProjects/OnlineCateringandOrderingServices/app/src/main/res/menu/my_menu.xml" value="0.19635416666666666" />
       </map>
     </option>
   </component>

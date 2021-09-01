@@ -13,7 +13,7 @@
         android:id="@+id/h1"
         android:padding="10dp"
         android:layout_marginTop="60dp"
-        android:textSize="50sp"
+        android:textSize="35sp"
         android:textColor="@color/orange"
         />
 
@@ -23,29 +23,31 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/h1"
         android:layout_centerInParent="true"
-        android:text="User login"
-        android:textSize="35sp"
-        android:textColor="@color/black"
         android:layout_marginTop="60dp"
-        />
+        android:text="User's"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
     <Button
+        android:id="@+id/h3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/h2"
-        android:id="@+id/h3"
-        android:text="catering login"
         android:layout_centerInParent="true"
-        android:textSize="35sp"
+        android:layout_marginTop="40dp"
+        android:text="catering login"
         android:textColor="@color/black"
-        android:layout_marginTop="40dp"/>
+        android:textSize="30sp" />
+
     <Button
+        android:id="@+id/h4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/h3"
-        android:id="@+id/h4"
-        android:text="catering register"
         android:layout_centerInParent="true"
-        android:textSize="35sp"
+        android:layout_marginTop="40dp"
+        android:onClick="register"
+        android:text="catering register"
         android:textColor="@color/black"
-        android:layout_marginTop="40dp"/>
+        android:textSize="35sp" />
 </RelativeLayout>
